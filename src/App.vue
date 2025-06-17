@@ -134,7 +134,7 @@ const works = ref<Record<string, WorkItem>>({
   'urban-solitude': {
     id: 'urban-solitude',
     title: 'Urban Solitude',
-    year: '2023',
+    year: '2020',
     medium: 'Digital Photography',
     type: 'image',
     media: '/images/urban-solitude.jpg',
@@ -143,7 +143,7 @@ const works = ref<Record<string, WorkItem>>({
   'disappearing-act': {
     id: 'disappearing-act',
     title: 'Disappearing Act',
-    year: '2023',
+    year: '2020',
     medium: 'Digital Photography',
     type: 'image',
     media: '/images/disappearing-act.jpg',
@@ -161,7 +161,7 @@ const works = ref<Record<string, WorkItem>>({
   'dragonfly': {
     id: 'dragonfly',
     title: 'Dragonfly',
-    year: '2023',
+    year: '2022',
     medium: 'Digital Photography',
     type: 'image',
     media: '/images/dragonfly.jpg',
@@ -190,8 +190,8 @@ const works = ref<Record<string, WorkItem>>({
   'grin-grieve': {
     id: 'grin-grieve',
     title: 'Grin + Grieve',
-    year: '2023',
-    medium: 'Digital Art, Mixed Media',
+    year: '2025',
+    medium: 'Digital Art, Generative Design',
     type: 'image',
     media: '/images/grin-grieve.jpg',
     description: 'Drawing inspiration from the iconic duality of traditional theater masks, this artwork features two contrasting skulls. One exudes a wide, cheerful grin, while the other wears a somber, melancholic expression. The bold lines and stark simplicity emphasize the tension between opposing emotions — a visual commentary on the complexities of human experience, where joy and sorrow coexist.'
@@ -199,8 +199,8 @@ const works = ref<Record<string, WorkItem>>({
   'catnip': {
     id: 'catnip',
     title: 'Catnip',
-    year: '2022',
-    medium: 'Digital Illustration',
+    year: '2025',
+    medium: 'Digital Art, Generative Design',
     type: 'image',
     media: '/images/catnip.jpg',
     description: 'A playful and edgy reinterpretation of the \'bad boy\' trope, featuring a group of cats in streetwear. Each cat exudes attitude, from the cigarette to the middle finger, all while rocking bold ANNOY branding. This satirical piece combines humor and rebellion, offering a cheeky commentary on pop culture\'s obsession with coolness and defiance, but with a lighthearted feline twist.'
@@ -210,8 +210,8 @@ const works = ref<Record<string, WorkItem>>({
   'lingovo': {
     id: 'lingovo',
     title: 'Lingovo',
-    year: '2023',
-    medium: 'Logo Design, Brand Identity',
+    year: '2024',
+    medium: 'Logo Design, Figma',
     type: 'image',
     media: '/images/lingovo-logo.png',
     description: 'A minimalist logo for a language learning app, combining the visual elements of different writing systems. The red character, representing a Chinese script, contrasts with the black English A, symbolizing the app\'s focus on bridging diverse languages. The clean, modern design reflects the app\'s approachability and clarity.'
@@ -219,8 +219,8 @@ const works = ref<Record<string, WorkItem>>({
   'annoy': {
     id: 'annoy',
     title: 'Annoy',
-    year: '2022',
-    medium: 'Logo Design',
+    year: '2025',
+    medium: 'Logo Design, Generative AI',
     type: 'image',
     media: '/images/annoy-logo.png',
     description: 'A modern, bold logo inspired by the Hollywood sign for a new fashion brand. The design captures the essence of confidence and attitude, using clean lines and striking text to make a statement.'
@@ -230,8 +230,8 @@ const works = ref<Record<string, WorkItem>>({
   'theme-song': {
     id: 'theme-song',
     title: 'Theme Song',
-    year: '2023',
-    medium: 'Original Composition, Electronic Music',
+    year: '2025',
+    medium: 'Original Composition, UK Hip Hop/Rap, Afrobeats, Generative AI',
     type: 'audio',
     media: '/audio/theme-song.mp3',
     description: `Created using Suno AI, "Theme Song" blends UK Hip Hop/Rap and Afrobeats to deliver a high-energy anthem for Lingovo.<br><br>
@@ -256,7 +256,7 @@ Lingovo, turning mumbling meatbags into word wizards since yesterday!`
   'lingovo-app': {
     id: 'lingovo-app',
     title: 'Lingovo: Language Learning',
-    year: '2023',
+    year: '2025',
     medium: 'Mobile App Design, UX/UI',
     type: 'app',
     media: '/images/lingovo-app.jpg',
