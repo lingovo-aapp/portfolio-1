@@ -30,7 +30,6 @@
           <ul class="nav-list">
             <li><a href="#lingovo" @click="showWork('lingovo')" :class="{ active: currentWork === 'lingovo' }">Lingovo</a></li>
             <li><a href="#annoy" @click="showWork('annoy')" :class="{ active: currentWork === 'annoy' }">Annoy</a></li>
-            <li><a href="#getscript" @click="showWork('getscript')" :class="{ active: currentWork === 'getscript' }">getScript</a></li>
           </ul>
         </div>
 
@@ -95,11 +94,13 @@
       <div v-else-if="currentWork === 'about'" class="about-content">
         <h1 class="page-title">About</h1>
         <div class="about-text">
-          <p>Alexandra Chen is a contemporary visual artist based in New York City, working primarily in interactive installations, digital media, and photography. Her work explores themes of identity, memory, and the ephemeral nature of human experience in digital spaces.</p>
+          <p>I'm a hobbyist passionate about photography, digital art, and editing. My journey into digital creation started in 2021, when I began using generative AI tools like ArtBreeder to create abstract designs. Since then, I've been exploring the intersection of technology and creativity, using AI to craft my own unique art pieces.</p>
           
-          <p>With a background in fine arts and interactive media, Alexandra's practice bridges traditional and contemporary methodologies, creating immersive experiences that speak to the complexity of modern life and our relationship with technology.</p>
+          <p>Throughout the years, I've also become proficient in Adobe Photoshop, Figma, Sketch, and Canva.</p>
           
-          <p>Her installations have been featured in galleries across New York, Los Angeles, and internationally, focusing on the intersection of physical and digital realms.</p>
+          <p>My work allows me to express my fascination with digital art, constantly pushing the boundaries of what's possible with generative AI. I enjoy experimenting with different techniques and mediums, always learning and evolving in the process.</p>
+          
+          <p>Photography has always been a part of my creative journey, and it continues to shape my visual storytelling. My work is a blend of photography and digital manipulation, creating immersive and thought-provoking pieces that reflect my personal exploration of the digital world.</p>
         </div>
       </div>
 
@@ -137,7 +138,7 @@ const works = ref<Record<string, WorkItem>>({
     medium: 'Digital Photography',
     type: 'image',
     media: '/images/urban-solitude.jpg',
-    description: 'An exploration of isolation in metropolitan environments. This series captures the paradox of being alone while surrounded by millions of people, finding moments of solitude within the urban landscape.'
+    description: 'Captured during a mandatory two-week self-isolation in Hong Kong, this image reflects the tension between solitude and urban life. From my apartment balcony, I documented the paradox of being confined to a small space amidst a sprawling city. The towering buildings and bustling streets serve as a constant reminder of the world beyond, while the quiet, stillness of the moment speaks to a deeper sense of personal isolation during the pandemic. This photograph explores the fragility of individual space within the relentless flow of metropolitan life.'
   },
   'disappearing-act': {
     id: 'disappearing-act',
@@ -146,7 +147,7 @@ const works = ref<Record<string, WorkItem>>({
     medium: 'Digital Photography',
     type: 'image',
     media: '/images/disappearing-act.jpg',
-    description: 'A photographic study of transient moments and ephemeral subjects that seem to vanish before our eyes, exploring themes of impermanence and the fleeting nature of existence.'
+    description: 'Captured during the COVID-19 pandemic, this image of Taipei 101 reflects a moment of eerie stillness as the towering skyscraper fades into the clouds. The fog enveloping the top of the building mirrors the uncertainty of the times, creating a sense of something disappearing — both physically and symbolically. The image serves as a metaphor for the surreal experience of the pandemic, where familiar structures and routines began to feel distant and elusive, just as the top of the 101 vanishes into the mist.'
   },
   'midday-static': {
     id: 'midday-static',
@@ -155,25 +156,25 @@ const works = ref<Record<string, WorkItem>>({
     medium: 'Digital Photography',
     type: 'image',
     media: '/images/midday-static.jpg',
-    description: 'Capturing the harsh, unforgiving light of midday and the static energy it creates in urban environments. A meditation on time, heat, and the suspended animation of peak daylight hours.'
+    description: 'This image captures the Central Plaza Tower, a final snapshot of Hong Kong before I left. The towering structure, bathed in the stark light of midday, represents both the modernity of the city and the overwhelming presence of its architecture. The sharp lines and reflections of the glass facades mirror the tension I felt during my last days — a quiet moment amidst the rush. The photo encapsulates a sense of stillness in a city that never truly stops, reflecting my own sense of departure and the static feeling that lingered as I prepared to leave.'
   },
   'dragonfly': {
     id: 'dragonfly',
     title: 'Dragonfly',
     year: '2023',
-    medium: 'Macro Photography',
+    medium: 'Digital Photography',
     type: 'image',
     media: '/images/dragonfly.jpg',
-    description: 'An intimate portrait of nature\'s precision and delicacy. This macro study reveals the intricate beauty and engineering marvel of one of nature\'s most agile creatures.'
+    description: 'A captivating close-up of illuminated glass lanterns, this photograph explores the delicate beauty of intricate designs and the interplay of light and shadow. The lamps, adorned with dragonfly motifs, glow with a soft, ethereal light, creating a surreal atmosphere. The layered composition adds depth, making it feel as though the viewer is surrounded by floating orbs of light. This image evokes a sense of calm and wonder, where natural and artificial elements converge in a harmonious dance of illumination.'
   },
   'lines': {
     id: 'lines',
     title: 'Lines',
     year: '2022',
-    medium: 'Architectural Photography',
+    medium: 'Digital Photography',
     type: 'image',
     media: '/images/lines.jpg',
-    description: 'A geometric exploration of architectural forms and the lines that define our built environment. This series examines how linear elements create rhythm, movement, and visual harmony in urban spaces.'
+    description: 'An abstract exploration of architectural lines and forms, this image focuses on the interplay of light, shadow, and geometry. The stark contrast between the sharp, clean lines of the building and the soft, glowing light seeping through creates a sense of tension. The minimalist composition directs attention to the structural elements, almost transforming the space into a surreal, otherworldly landscape. This photograph evokes feelings of openness, precision, and the subtle beauty of design found in everyday urban environments.'
   },
 
   // Digital Art Section
@@ -184,7 +185,7 @@ const works = ref<Record<string, WorkItem>>({
     medium: 'Digital Art, Generative Design',
     type: 'image',
     media: '/images/misaligned.jpg',
-    description: 'A digital exploration of imperfection and the beauty found in misalignment. This piece challenges our desire for perfect symmetry and celebrates the unexpected harmony in disorder.'
+    description: 'A bold, graphic portrait that plays with abstraction and distortion. The sharp contrasts and exaggerated features create an unsettling, almost surreal quality, while the red lips and smoke introduce an element of intrigue. The piece challenges perceptions of beauty and identity, evoking a sense of tension and mystery.'
   },
   'grin-grieve': {
     id: 'grin-grieve',
@@ -193,7 +194,7 @@ const works = ref<Record<string, WorkItem>>({
     medium: 'Digital Art, Mixed Media',
     type: 'image',
     media: '/images/grin-grieve.jpg',
-    description: 'A duality study examining the complex relationship between joy and sorrow, exploring how these seemingly opposite emotions often coexist and inform each other in the human experience.'
+    description: 'Drawing inspiration from the iconic duality of traditional theater masks, this artwork features two contrasting skulls. One exudes a wide, cheerful grin, while the other wears a somber, melancholic expression. The bold lines and stark simplicity emphasize the tension between opposing emotions — a visual commentary on the complexities of human experience, where joy and sorrow coexist.'
   },
   'catnip': {
     id: 'catnip',
@@ -202,7 +203,7 @@ const works = ref<Record<string, WorkItem>>({
     medium: 'Digital Illustration',
     type: 'image',
     media: '/images/catnip.jpg',
-    description: 'A playful digital composition inspired by feline behavior and the euphoric effects of catnip. This piece explores themes of pleasure, instinct, and the simple joys found in nature.'
+    description: 'A playful and edgy reinterpretation of the \'bad boy\' trope, featuring a group of cats in streetwear. Each cat exudes attitude, from the cigarette to the middle finger, all while rocking bold ANNOY branding. This satirical piece combines humor and rebellion, offering a cheeky commentary on pop culture\'s obsession with coolness and defiance, but with a lighthearted feline twist.'
   },
 
   // Logos Section
@@ -212,8 +213,8 @@ const works = ref<Record<string, WorkItem>>({
     year: '2023',
     medium: 'Logo Design, Brand Identity',
     type: 'image',
-    media: '/images/lingovo-logo.jpg',
-    description: 'Brand identity design for a language learning platform. The logo combines linguistic elements with modern typography to create a memorable and approachable brand presence.'
+    media: '/images/lingovo-logo.png',
+    description: 'A minimalist logo for a language learning app, combining the visual elements of different writing systems. The red character, representing a Chinese script, contrasts with the black English A, symbolizing the app\'s focus on bridging diverse languages. The clean, modern design reflects the app\'s approachability and clarity.'
   },
   'annoy': {
     id: 'annoy',
@@ -221,17 +222,8 @@ const works = ref<Record<string, WorkItem>>({
     year: '2022',
     medium: 'Logo Design',
     type: 'image',
-    media: '/images/annoy-logo.jpg',
-    description: 'A provocative logo design that plays with negative space and typography to create an intentionally disruptive visual identity that challenges conventional design expectations.'
-  },
-  'getscript': {
-    id: 'getscript',
-    title: 'getScript',
-    year: '2023',
-    medium: 'Logo Design, Tech Branding',
-    type: 'image',
-    media: '/images/getscript-logo.jpg',
-    description: 'Logo design for a developer tool platform. The design incorporates coding elements and clean typography to appeal to the technical community while maintaining accessibility.'
+    media: '/images/annoy-logo.png',
+    description: 'A modern, bold logo inspired by the Hollywood sign for a new fashion brand. The design captures the essence of confidence and attitude, using clean lines and striking text to make a statement.'
   },
 
   // Music Section
@@ -242,7 +234,7 @@ const works = ref<Record<string, WorkItem>>({
     medium: 'Original Composition, Electronic Music',
     type: 'audio',
     media: '/audio/theme-song.mp3',
-    description: 'An original electronic composition that serves as a sonic exploration of digital landscapes. This piece combines ambient textures with rhythmic elements to create an immersive auditory experience.'
+    description: 'Created using Suno AI, this theme song blends UK Hip Hop/Rap and Afrobeats to deliver a high-energy anthem for Lingovo. Lyrics: You think you suck at English? Meet the world\'s worst speaker! This guy tried to ask for directions and ended up declaring war on three countries! He downloads Lingovo and bam! 30 days later... He\'s debating philosophy with Oxford professors! His dog starts taking notes during his phone calls! The U.N. begs him to mediate world peace talks! He reads the phone book aloud and it becomes a bestseller! Shakespeare\'s ghost shows up to ask for writing tips! Lingovo, we don\'t just teach English, we create verbal supervillains! Warning, may cause extreme eloquence and spontaneous poetry outbursts! Download now or stay a linguistic caveman! Lingovo, turning mumbling meatbags into word wizards since yesterday!'
   },
 
   // Apps Section
@@ -253,8 +245,8 @@ const works = ref<Record<string, WorkItem>>({
     medium: 'Mobile App Design, UX/UI',
     type: 'app',
     media: '/images/lingovo-app.jpg',
-    link: 'https://lingovo.app', // Replace with your actual app link
-    description: 'A comprehensive language learning application designed to make language acquisition engaging and accessible. The app features interactive lessons, progress tracking, and gamified learning experiences.'
+    link: 'https://lingovo.app',
+    description: 'Introducing Lingovo – A language learning app created entirely by me, from the ground up. As the solo founder, I designed every aspect of the UI/UX, driven by the belief that language learning should be natural, interactive, and tailored to the learner. Inspired by the "By the Nature" method — a technique that gradually introduces vocabulary through graded readers — Lingovo brings that concept to life with on-demand translations, interactive text, and an instant dictionary. It\'s a personalized, immersive experience designed to empower learners at their own pace.'
   }
 })
 
