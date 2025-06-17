@@ -174,7 +174,7 @@ const works = ref<Record<string, WorkItem>>({
     type: 'image',
     media: '/images/lines.jpg',
     description: 'An abstract exploration of architectural lines and forms, this image focuses on the interplay of light, shadow, and geometry. The stark contrast between the sharp, clean lines of the building and the soft, glowing light seeping through creates a sense of tension. The minimalist composition directs attention to the structural elements, almost transforming the space into a surreal, otherworldly landscape. This photograph evokes feelings of openness, precision, and the subtle beauty of design found in everyday urban environments.'
-  },
+  }
 
   // Digital Art Section
   'misaligned': {
@@ -202,8 +202,8 @@ const works = ref<Record<string, WorkItem>>({
     medium: 'Digital Art, Generative Design',
     type: 'image',
     media: '/images/catnip.jpg',
-    description: 'A playful and edgy reinterpretation of the 'bad boy' trope, featuring a group of cats in streetwear. Each cat exudes attitude, from the cigarette to the middle finger, all while rocking bold 'ANNOY' branding. This satirical piece combines humor and rebellion, offering a cheeky commentary on pop culture's obsession with coolness and defiance, but with a lighthearted feline twist.'
-  },
+    description: 'A playful and edgy reinterpretation of the 'bad boy' trope, featuring a group of cats in streetwear. Each cat exudes attitude, from the cigarette to the middle finger, all while rocking bold ANNOY branding. This satirical piece combines humor and rebellion, offering a cheeky commentary on pop culture's obsession with coolness and defiance, but with a lighthearted feline twist.'
+  }
 
   // Logos Section
   'lingovo': {
@@ -213,7 +213,7 @@ const works = ref<Record<string, WorkItem>>({
     medium: 'Digital Design (Figma)',
     type: 'image',
     media: '/images/lingovo-logo.jpg',
-    description: 'A minimalist logo for a language learning app, combining the visual elements of different writing systems. The red character, representing a Chinese script, contrasts with the black English 'A', symbolizing the app's focus on bridging diverse languages. The clean, modern design reflects the app's approachability and clarity.'
+    description: 'A minimalist logo for a language learning app, combining the visual elements of different writing systems. The red character, representing a Chinese script, contrasts with the black English A, symbolizing the app's focus on bridging diverse languages. The clean, modern design reflects the app's approachability and clarity.'
   },
   'annoy': {
     id: 'annoy',
@@ -232,7 +232,7 @@ const works = ref<Record<string, WorkItem>>({
     type: 'image',
     media: '/images/getscript-logo.jpg',
     description: 'Logo design for a developer tool platform. The design incorporates coding elements and clean typography to appeal to the technical community while maintaining accessibility.'
-  },
+  }
 
   // Music Section
   'theme-song': {
@@ -243,7 +243,7 @@ const works = ref<Record<string, WorkItem>>({
     type: 'audio',
     media: '/audio/theme-song.mp3',
     description: 'Created using Suno AI, "Theme Song" blends UK Hip Hop/Rap and Afrobeats to deliver a high-energy anthem for Lingovo. \nLYRICS: \nYOU THINK YOU SUCK AT ENGLISH? MEET THE WORLD\'S WORST SPEAKER! \nTHIS GUY TRIED TO ASK FOR DIRECTIONS AND ENDED UP DECLARING WAR ON THREE COUNTRIES! \nHE DOWNLOADS LINGOVO AND BAM! 30 DAYS LATER... \nHE\'S DEBATING PHILOSOPHY WITH OXFORD PROFESSORS! \nHIS DOG STARTS TAKING NOTES DURING HIS PHONE CALLS! \nTHE U.N. BEGS HIM TO MEDIATE WORLD PEACE TALKS! \nHE READS THE PHONE BOOK ALOUD AND IT BECOMES A BESTSELLER! \nSHAKESPEARE\'S GHOST SHOWS UP TO ASK FOR WRITING TIPS! \nLINGOVO, WE DON\'T JUST TEACH ENGLISH, WE CREATE VERBAL SUPERVILLAINS! \nWARNING, MAY CAUSE EXTREME ELOQUENCE AND SPONTANEOUS POETRY OUTBURSTS! \nDOWNLOAD NOW OR STAY A LINGUISTIC CAVEMAN! \nLINGOVO, TURNING MUMBLING MEATBAGS INTO WORD WIZARDS SINCE YESTERDAY!'
-  },
+  }
 
   // Apps Section
   'lingovo-app': {
