@@ -86,7 +86,7 @@
         <div class="work-info">
           <div class="work-year">{{ currentWorkData.year }}</div>
           <div class="work-medium">{{ currentWorkData.medium }}</div>
-          <div class="work-description">{{ currentWorkData.description }}</div>
+          <div class="work-description" v-html="currentWorkData.description"></div>
         </div>
       </div>
 
@@ -234,7 +234,22 @@ const works = ref<Record<string, WorkItem>>({
     medium: 'Original Composition, Electronic Music',
     type: 'audio',
     media: '/audio/theme-song.mp3',
-    description: 'Created using Suno AI, this theme song blends UK Hip Hop/Rap and Afrobeats to deliver a high-energy anthem for Lingovo. Lyrics: You think you suck at English? Meet the world\'s worst speaker! This guy tried to ask for directions and ended up declaring war on three countries! He downloads Lingovo and bam! 30 days later... He\'s debating philosophy with Oxford professors! His dog starts taking notes during his phone calls! The U.N. begs him to mediate world peace talks! He reads the phone book aloud and it becomes a bestseller! Shakespeare\'s ghost shows up to ask for writing tips! Lingovo, we don\'t just teach English, we create verbal supervillains! Warning, may cause extreme eloquence and spontaneous poetry outbursts! Download now or stay a linguistic caveman! Lingovo, turning mumbling meatbags into word wizards since yesterday!'
+    description: `Created using Suno AI, "Theme Song" blends UK Hip Hop/Rap and Afrobeats to deliver a high-energy anthem for Lingovo.<br><br>
+
+<strong>Lyrics:</strong><br><br>
+
+You think you suck at English? Meet the world's worst speaker!<br>
+This guy tried to ask for directions and ended up declaring war on three countries!<br>
+He downloads Lingovo and bam! 30 days later...<br>
+He's debating philosophy with Oxford professors!<br>
+His dog starts taking notes during his phone calls!<br>
+The U.N. begs him to mediate world peace talks!<br>
+He reads the phone book aloud and it becomes a bestseller!<br>
+Shakespeare's ghost shows up to ask for writing tips!<br>
+Lingovo, we don't just teach English, we create verbal supervillains!<br>
+Warning, may cause extreme eloquence and spontaneous poetry outbursts!<br>
+Download now or stay a linguistic caveman!<br>
+Lingovo, turning mumbling meatbags into word wizards since yesterday!`
   },
 
   // Apps Section
